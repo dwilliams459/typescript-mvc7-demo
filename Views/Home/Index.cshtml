@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script src="~/js/test.js"></script>
+
+<script>
+    alert(add(1,2));
+</script>
+
+<div class="text-center">
+    <h1 class="display-4">Typescript and MVC 6 demo</h1>
+    <p>When run, an alert should display showing the addition of 1+2.  However an error prevents the transpiled code from running.</p>
+    <p>Select F12 and note the errors with the test.js file.  Depending on TypeScript Module CommanJS or AMD, you get errors like:
+        <ul>
+            <li>define is not defined</li>
+            <li>export is not defined</li>
+        </ul>
+    </p>
+</div>
+ 

@@ -1,0 +1,18 @@
+{
+  "name": "typescript-mvc-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "convert": "^4.10.0",
+    "convert-js": "^1.0.6"
+  }
+}
